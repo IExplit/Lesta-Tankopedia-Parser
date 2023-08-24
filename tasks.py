@@ -21,12 +21,12 @@ HEADERS = {
 
 
 async def get_tasks(
-        nation='', # Фильтр по нации танка
-        tankType='', # Фильтр по типу танка
-        role='', # Фильтр по роли танка
-        tier='', # Фильтр по уровню танка
-        premium='', # Фильтр по премиаьлности танка
-        collector_vehicle='' # Фильтр по коллекционности танка
+        nation='', # Filter by tank nation
+        tankType='', # Filter by tank type
+        role='', # Filter by tank role
+        tier='', # Filter by tank level
+        premium='', # Filter by tank premium
+        collector_vehicle=''  # Filter by tank collectibility
 ):
     data = {
         'filter[nation]': nation,
