@@ -4,7 +4,7 @@ from tasks import get_tasks
 from ttc import tanks
 
 HEADER = [
-        'Level', 'Nation', 'Name', 'Starus', 'Configure', 'Piercing1', 'Piercing2', 'Piercing3',
+        'Level', 'Nation', 'Name', 'Status', 'Configure', 'Piercing1', 'Piercing2', 'Piercing3',
         'Damage1', 'Damage2', 'Damage3', 'Reload time', 'Autoreload time', 'Clip rate',
         'Clip count', 'Gun rate', 'DPM', 'Aiming time', 'Shot dispersion radius',
         'Health', 'Hull armor forehead', 'Hull armor board', 'hull armor aft',
